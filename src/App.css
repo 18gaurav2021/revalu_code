@@ -1,0 +1,94 @@
+.App {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.App-header {
+  background-color: #fff;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  text-align: left;
+}
+
+.sidebar {
+  width: 200px;
+  background: #f8f8f8;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.new-collection-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.new-collection-btn:hover {
+  background-color: #45a049;
+}
+
+.collections {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.collection-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.collection-card .download-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.collection-card .delete-btn {
+  background-color: #ff4136;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.collection-card .collection-content h3 {
+  margin: 10px 0 5px 0;
+}
+
+.new-collection-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 2px dashed #007bff;
+  background: #f8f8f8;
+  color: #007bff;
+  font-size: 24px;
+  width: 250px;
+  height: 150px;
+}
+
+.new-collection-card:hover {
+  background: #e7f0ff;
+}
